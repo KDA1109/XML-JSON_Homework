@@ -1,0 +1,44 @@
+Задача №2: проверить JSON на Well formed:
+
+{
+
+    "surname": "Иванов"
+
+    "name": "Иван"
+
+    "patronymic": "Иванович"
+
+    "birthdate": "01.01.1990"
+
+    "birthplace": "Москва"
+
+    "phone": "8 926 766 48 48"
+}
+
+
+Решение:
+
+{
+  "users": {
+    "user": [
+      {
+        "id": "1",
+          "surName": "Иванов",
+          "name": "Иван",
+          "patronymic": "Иванович",
+          "birthdate": "01.01.1990",
+          "birthplace": "Москва",
+          "contact_info": [
+            {
+              "phones": {
+               "phone": "8 926 766 48 48"
+              },
+              "emails": {
+                "email": "example@yandex.ru"
+              }
+            }
+          ]  
+      }
+    ]
+  }
+}
